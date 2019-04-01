@@ -1,0 +1,20 @@
+#设置相关的配置文件
+Driver:
+  AppName : 'cn.dcpai.auction'
+  platformName: 'Android'
+  appActivity: 'cn.dcpai.auction.SplashActivity'
+
+
+# 接口响应
+host: 'http://testapp.dcpai.cn/app/'
+headers: {'User-Agent':'Auction/5.0.0 (iPhone; iOS 11.4.1; Scale/2.00)',
+          'Accept-Language':'zh-Hans-CN;q=1',
+          'Connection':'keep-alive',
+          'Content - Type':'application/x-www-form-urlencoded',
+          'clientType':'IOS'}
+
+
+# 测试账号信息
+username: 13888880000
+password: 123456
+

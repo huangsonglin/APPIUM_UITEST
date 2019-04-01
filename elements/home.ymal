@@ -1,0 +1,28 @@
+banner_area: cn.dcpai.auction:id/home_banner_root # banner空间板块
+banner_home: cn.dcpai.auction:id/home_banner      # banner
+banner_Container: cn.dcpai.auction:id/bannerContainer # banner中心区域
+banner_circleIndicator: cn.dcpai.auction:id/circleIndicator # banner焦点图控件
+banner_circleIndicator_class: android.widget.ImageView      # banner焦点图class
+home_RadioButton: cn.dcpai.auction:id/main_page        # 首页按钮
+auction_RadioButton:  cn.dcpai.auction:id/special_auction   # 龖竞拍按钮
+shop_RadioButton:  cn.dcpai.auction:id/main_mall   # 龖商城按钮
+jiangfu_RadioButton:  cn.dcpai.auction:id/jianghu   # 龖江湖按钮
+mine_RadioButton:  cn.dcpai.auction:id/mine   # 我的按钮
+search_button:  cn.dcpai.auction:id/home_img_search_btn   # 搜索按钮
+home_rl_layout :  cn.dcpai.auction:id/home_rl_layout            # 下滑后首页导航title--龖藏
+home_pr_layout :  cn.dcpai.auction:id/home_pr_layout            # 下滑后首页导航条
+home_auction :  cn.dcpai.auction:id/home_lot_layout             # 下滑后首页导航--轰啪拍场
+home_Delayauction :  cn.dcpai.auction:id/home_delayed_layout    # 下滑后首页导航--秒啪拍场
+home_YouLike :  cn.dcpai.auction:id/home_like_layout            # 下滑后首页导航--猜你喜欢
+goto_top: cn.dcpai.auction:id/home_rlayout_top                  # 返回顶部按钮
+home_auction_area:  cn.dcpai.auction:id/home_exquisite_root     # 拍场展示区域
+auction_name: cn.dcpai.auction:id/home_exquisite_tv_name        # 拍场名字
+auction_start_time: cn.dcpai.auction:id/home_exquisite_tv_time  # 拍场开始时间
+auction_status: cn.dcpai.auction:id/home_exquisite_tv_state     # 拍场状态信息
+auction_count: cn.dcpai.auction:id/home_exquisite_tv_count      # 拍场围观次数
+auction_total_price:  cn.dcpai.auction:id/home_exquisite_tv_price # 拍场成交总额
+auction_price_num:  cn.dcpai.auction:id/home_exquisite_tv_num    # 拍场总出价次数
+auction_product_img_area:  cn.dcpai.auction:id/home_exquisite_recycler  # 拍场拍品区域
+auction_product_img:  cn.dcpai.auction:id/lot_imageView          # 拍场拍品图片
+push_message: content                                            # 推送消息提示框
+message_content:  message                                        # 推送消息的内容

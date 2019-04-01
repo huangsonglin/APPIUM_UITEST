@@ -1,0 +1,26 @@
+shop_content: cn.dcpai.auction:id/content         # 龖商城中心板块
+product_area: cn.dcpai.auction:id/rl_goodslist    # 商品区域
+product_txt:  cn.dcpai.auction:id/tv_goodslist    # 商品文字-button
+product_display_main: cn.dcpai.auction:id/vp_web_body # 商品展示中心区域
+product_display_area: cn.dcpai.auction:id/rv_goodslist  # 商品展示板块
+everyone_product: android.widget.LinearLayout         # 单个商品信息板块
+everyone_product_icon:  cn.dcpai.auction:id/iv_icon   # 商品icon
+everyone_product_videoicon: cn.dcpai.auction:id/iv_video  # 商品video的Icon信息、
+erveyone_product_recommand: cn.dcpai.auction:id/tv_recom  # 商品官方推荐icon
+everyone_product_name:  cn.dcpai.auction:id/tv_name   # 商品名字
+everyone_product_price_imformation: android.widget.LinearLayout # 商品价格|售出信息板块class
+everyone_product_price: cn.dcpai.auction:id/tv_money  # 商品销售价(有销售价则为销售价，待价估询，已被恭请)
+everyone_product_originalprice: cn.dcpai.auction:id/tv_money_before # 商品销售原价
+
+shop_area:  cn.dcpai.auction:id/rl_shoplist       # 店家区域
+shop_list:  cn.dcpai.auction:id/rv_shoplist       # 店铺展示区域
+everyshop_class:  android.widget.LinearLayout     # 单个店铺的class信息
+shop_icon:  cn.dcpai.auction:id/iv_icon           # 店铺icon
+shop_name:  cn.dcpai.auction:id/tv_name           # 店铺名字
+seller_icon:  cn.dcpai.auction:id/iv_header       # 店家个人头像
+seller_name:  cn.dcpai.auction:id/tv_username     # 店铺买家昵称
+switch_display: cn.dcpai.auction:id/iv_switch     # 店铺切换显示方式
+into_shop:  cn.dcpai.auction:id/tv_enter          # 进入店铺
+shop_recommand_list:  cn.dcpai.auction:id/ll_image  # 列表模式下商家推荐的商品列表信息
+everyone_shop_recomand_class:  android.widget.RelativeLayout  # 推荐商品总体class
+

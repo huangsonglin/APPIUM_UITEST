@@ -1,0 +1,19 @@
+                    工程说明
+一、目的
+    A、可通过adb命令来进行盲测，快速查看app的相关稳定行。
+    B、通过appium来进行UI自动化测试，可快速方便做回归测试
+二、系统结构
+    python + appium
+    环境搭建：
+        1、安装appium，可参考http://www.cnblogs.com/fnng/p/4540731.html
+        2、第三库安装
+            pip install Appium
+            pip install selenium
+    adb常用操作命令
+        adb devices  查看当前设备链接信息
+        adb kill-server
+        adb shell 进入shell操作
+        dumpsys activity | grep -i run  # 获取当前activity
+三、
+
+

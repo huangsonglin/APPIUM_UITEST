@@ -1,0 +1,9 @@
+#!user/bin/python
+#-*- coding: utf-8 -*-
+__author__:'huangsonglin@dcpai.cn'
+__version__:'1.0'
+__CreatrDate__:'2018/11/5 16:15'
+
+"""
+该文件夹下的py文件，主要是从新封装相关的操作，如滑动、点击等
+"""

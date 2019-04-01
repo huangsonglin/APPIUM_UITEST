@@ -1,0 +1,5 @@
+Login:  .activity.LoginMainActivity
+MobileLogin:  .activity.MobileLoginActivity
+Main: .MainActivity
+Setting:  .activity.SettingActivity
+BuyOrder: .shop.order.ui.OrderActivity

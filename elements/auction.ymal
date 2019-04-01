@@ -1,0 +1,35 @@
+auction_area: cn.dcpai.auction:id/special_delayed_layout  # 轰啪拍场区域
+auction_txt:  cn.dcpai.auction:id/special_delayed_tv      # 轰啪拍场文字按钮  -text属性：轰啪拍场
+select_img:  cn.dcpai.auction:id/special_delayed_img      # 选中时的图片--只有选中区域时才有
+before_auction: cn.dcpai.auction:id/nodata_txt_history    # 查看历史拍场按钮
+no_auction_toast: cn.dcpai.auction:id/nodata_title        # 无拍场时相关的文字提示信息
+reagin_button:  cn.dcpai.auction:id/nodata_btn            # 点击重试按钮
+auction_area:  cn.dcpai.auction:id/home_exquisite_root     # 拍场展示区域
+auction_name: cn.dcpai.auction:id/home_exquisite_tv_name        # 拍场名字
+auction_start_time: cn.dcpai.auction:id/home_exquisite_tv_time  # 拍场开始时间
+auction_status: cn.dcpai.auction:id/home_exquisite_tv_state     # 拍场状态信息
+auction_count: cn.dcpai.auction:id/home_exquisite_tv_count      # 拍场围观次数
+auction_product_img_area:  cn.dcpai.auction:id/home_exquisite_recycler  # 拍场拍品区域
+auction_product_img:  cn.dcpai.auction:id/lot_imageView          # 拍场拍品图片
+live_sign:  cn.dcpai.auction:id/home_exquisite_tv_live_state     # 直播拍场
+delay_auction_area: cn.dcpai.auction:id/special_auction_layout   # 秒啪拍场区域
+delay_txt:  cn.dcpai.auction:id/special_auction_tv               # 秒啪文字
+classfiy_area: cn.dcpai.auction:id/sdf_scrollview                # 分类导航条总
+classfiy_bar: cn.dcpai.auction:id/sdf_tab                        # 分类条
+classfiy_class: android.widget.LinearLayout                      # 分类class
+classfiy_name:  cn.dcpai.auction:id/title                        # 分类名字
+classfiy_add_button:  cn.dcpai.auction:id/sdf_add                # 分类“+”按钮
+my_compete: cn.dcpai.auction:id/mes_remind__tv                   # 我的参拍
+my_compete_text:  cn.dcpai.auction:id/mes_remind_title_tv        # 点击查看我参与的拍品
+my_compete_reback:  cn.dcpai.auction:id/mes_remind_back          # 返回按钮
+delay_auction_area: cn.dcpai.auction:id/home_delayed_root        # 秒啪拍场展示区域
+delay_auction_name: cn.dcpai.auction:id/home_delayed_tv_name     # 秒啪拍场名字
+delay_auction_endtime:  cn.dcpai.auction:id/home_delayed_tv_time # 距拍场结束时间
+delay_auction_obcontnum:  cn.dcpai.auction:id/home_delayed_tv_count # 拍场总围观数
+delay_auction_icon: cn.dcpai.auction:id/home_delayed_img         # 秒啪拍场封面
+delay_auction_status: cn.dcpai.auction:id/home_delayed_tv_state  # 拍场状态情况
+delay_auction_product_num:  cn.dcpai.auction:id/home_delayed_tv_num  # 拍场总件数
+delay_auction_price_num:  cn.dcpai.auction:id/home_delayed_tv_price_num # 拍场出价次数
+history_delay_auction:  cn.dcpai.auction:id/foot_txt_history      # 查看历史拍场
+
+
