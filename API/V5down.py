@@ -15,15 +15,11 @@ import urllib.request
 from Until.YamlRead import *
 
 
-class Down_V5Api:
-    host = 'http://testapp.dcpai.cn/app/'
-    headers = {'User-Agent': 'Auction/4.5.3 (iPhone; ANDROID 11.4.1; Scale/2.00)',
-               'Accept-Language': 'zh-Hans-CN;q=1',
-               'Connection': 'keep-alive',
-               'Content - Type': 'application/x-www-form-urlencoded',
-               'clientType': 'ANDROID'}
+class Four_Vesion_Api:
+    host = Config(CONFIG_FILE).get("host")
+    headers =  Config(CONFIG_FILE).get("headers")
     timeout = 3
-    Authorization = Config(App_LoginToken).get('Authorization')
+    # Authorization = Config(App_LoginToken).get('Authorization')
 
     def findMyHoldProductPage_420(self, rows=20, page=1):
         url = self.host + 'interface/mobile/findMyHoldProductPage_420'
@@ -91,6 +87,17 @@ class Down_V5Api:
     def findTopReplyByPostId_300(self, postId, page=1, rows=20):
         url = self.host + 'interface/mobile/pmall/findTopReplyByPostId_300'
         data = {'postId': postId, 'page': page, 'rows': rows}
+        req = requests.post(url, data=data, headers=self.headers, timeout=self.timeout)
+        return req
+
+    def sendAuthenticationCode_112(self, phone):
+        data = {"phoneNum": phone}
+        url = self.host + 'interface/mobile/pmall/sendAuthenticationCode_112'
+        req = requests.post(url, data=data, headers=self.headers)
+
+    def searchPostPage_300(self, keyword, page=1, rows=10, sort='H'):
+        url = self.host + 'interface/mobile/pmall/searchPostPage_300'
+        data = {'keyword': keyword, 'page': page, 'rows': rows, 'sort': sort}
         req = requests.post(url, data=data, headers=self.headers, timeout=self.timeout)
         return req
 

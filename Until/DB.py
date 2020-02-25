@@ -4,8 +4,8 @@ import pymysql
 class Mysql:
     # 进入数据库
     def into_mysql(self):
-        intodb = pymysql.Connect(host='rdsnpyc1dt23z1ilc87w.mysql.rds.aliyuncs.com', user='testreport',
-                             password='Dcang@pmtest0309', database='paimai_train', charset='utf8')
+        intodb = pymysql.Connect(host='rdsnpyc1dt23z1ilc87w.mysql.rds.aliyuncs.com', user='dacang_hsl',
+                             password='dacang@1121@2001', database='paimai_test_new', charset='utf8')
         # 建立游标池
         db = intodb.cursor()
         return db
@@ -45,7 +45,6 @@ class Mysql:
     def user_database(self,sql):
         db = Mysql().into_mysql()
         db.execute(sql)
-
 
 
 

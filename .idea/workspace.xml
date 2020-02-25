@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70cd2b6d-c8e3-460d-b871-b3e3e86f322a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Page/School_Page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/andriodbutton.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/BBS500.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/BBS500.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/V5down.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/V5down.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/new_500.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/new_500.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/Token.ymal" beforeDir="false" afterPath="$PROJECT_DIR$/Config/Token.ymal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/BBS_Infromation_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/BBS_Infromation_Page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Da_JiangHu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Da_JiangHu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/MinePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/MinePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/PulicClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/PulicClass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/test.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/UITEST$driver_command.coverage" NAME="driver_command Coverage Results" MODIFIED="1582600204600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/command" />
+    <SUITE FILE_PATH="coverage/UiAuto$Order500.coverage" NAME="Order500 Coverage Results" MODIFIED="1551857059242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_login_Test_Login_test_003_except_login.coverage" NAME="pytest for test_login.Test_Login.test_003_except_login Coverage Results" MODIFIED="1576736866084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UiAuto$Public.coverage" NAME="Public Coverage Results" MODIFIED="1548920997332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UiAuto$DB.coverage" NAME="DB Coverage Results" MODIFIED="1553567165737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Until" />
+    <SUITE FILE_PATH="coverage/UiAuto$GetFile.coverage" NAME="GetFile Coverage Results" MODIFIED="1552030119886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Until" />
+    <SUITE FILE_PATH="coverage/UiAuto$PulicClass.coverage" NAME="PulicClass Coverage Results" MODIFIED="1552371752457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UiAuto$Set_driver.coverage" NAME="Set_driver Coverage Results" MODIFIED="1541484384462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Driver" />
+    <SUITE FILE_PATH="coverage/UiAuto$webdriver.coverage" NAME="webdriver Coverage Results" MODIFIED="1551164427000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote" />
+    <SUITE FILE_PATH="coverage/UiAuto$Da_JiangHu.coverage" NAME="Da_JiangHu Coverage Results" MODIFIED="1554107835131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_register_Test_Register_test_01_right_register.coverage" NAME="pytest for test_register.Test_Register.test_01_right_register Coverage Results" MODIFIED="1576744708766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UITEST$DB.coverage" NAME="DB Coverage Results" MODIFIED="1576738657997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Until" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_in_test_register_py.coverage" NAME="pytest in test_register.py Coverage Results" MODIFIED="1576812707979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UITEST$adb.coverage" NAME="adb Coverage Results" MODIFIED="1582511246443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/adb_command" />
+    <SUITE FILE_PATH="coverage/UiAuto$ImageView_Price.coverage" NAME="ImageView_Price Coverage Results" MODIFIED="1551687232044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UiAuto$HomePage.coverage" NAME="HomePage Coverage Results" MODIFIED="1553509223808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UiAuto$test.coverage" NAME="test Coverage Results" MODIFIED="1554102189527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_login_Test_Login_test_001_click_mine.coverage" NAME="pytest for test_login.Test_Login.test_001_click_mine Coverage Results" MODIFIED="1582511946545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UiAuto$Delay_Auction.coverage" NAME="Delay_Auction Coverage Results" MODIFIED="1553508799728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UiAuto$Mine.coverage" NAME="Mine Coverage Results" MODIFIED="1548837029542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UIautoTest$Mine.coverage" NAME="Mine Coverage Results" MODIFIED="1541475033075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UiAuto$BBS_Infromation_Page.coverage" NAME="BBS_Infromation_Page Coverage Results" MODIFIED="1553764351548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_search_Test_Search_test_002_search_topic.coverage" NAME="pytest for test_search.Test_Search.test_002_search_topic Coverage Results" MODIFIED="1576827671456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UITEST$public_command.coverage" NAME="public_command Coverage Results" MODIFIED="1582619584519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PublicCommand" />
+    <SUITE FILE_PATH="coverage/UiAuto$Auction_Page.coverage" NAME="Auction_Page Coverage Results" MODIFIED="1552979057615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UiAuto$V5down.coverage" NAME="V5down Coverage Results" MODIFIED="1553845577851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/UiAuto$AboutLogin.coverage" NAME="AboutLogin Coverage Results" MODIFIED="1553845541670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UiAuto$tet.coverage" NAME="tet Coverage Results" MODIFIED="1541486094307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Command" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_in_test_search_py.coverage" NAME="pytest in test_search.py Coverage Results" MODIFIED="1578292915606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UiAuto$diffrentPng.coverage" NAME="diffrentPng Coverage Results" MODIFIED="1552028850074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Until" />
+    <SUITE FILE_PATH="coverage/UiAuto$YamlRead.coverage" NAME="YamlRead Coverage Results" MODIFIED="1548919596822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Until" />
+    <SUITE FILE_PATH="coverage/UiAuto$command.coverage" NAME="command Coverage Results" MODIFIED="1548916305315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Command" />
+    <SUITE FILE_PATH="coverage/UiAuto$BBS500.coverage" NAME="BBS500 Coverage Results" MODIFIED="1554110380502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_login_Test_Login.coverage" NAME="pytest for test_login.Test_Login Coverage Results" MODIFIED="1582511722134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UiAuto$Auction_LotPage.coverage" NAME="Auction_LotPage Coverage Results" MODIFIED="1552037745792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_Login_Test_Login_test_003_except_login.coverage" NAME="pytest for case.test_login.Test_Login.test_003_except_login Coverage Results" MODIFIED="1576673723682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UiAuto$LZshop.coverage" NAME="LZshop Coverage Results" MODIFIED="1550644394225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1582508920082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UiAuto$new_500.coverage" NAME="new_500 Coverage Results" MODIFIED="1554104783996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/UITEST$Driver.coverage" NAME="Driver Coverage Results" MODIFIED="1575614050038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Driver" />
+    <SUITE FILE_PATH="coverage/UiAuto$Driver.coverage" NAME="Driver Coverage Results" MODIFIED="1551749109798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Driver" />
+    <SUITE FILE_PATH="coverage/UiAuto$ImageView_Living.coverage" NAME="ImageView_Living Coverage Results" MODIFIED="1551950747987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$logcat.coverage" NAME="logcat Coverage Results" MODIFIED="1575971236766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/adblogcat" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_home_Test_Home_test_001_search.coverage" NAME="pytest for case.test_search.Test_Home.test_001_search Coverage Results" MODIFIED="1576824356948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UITEST$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1576669246883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_search_Test_Search_test_001_init_search.coverage" NAME="pytest for test_search.Test_Search.test_001_init_search Coverage Results" MODIFIED="1576825194245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_Login_TestLoginClass_test_001_into_user_page.coverage" NAME="pytest for Login.TestLoginClass.test_001_into_user_page Coverage Results" MODIFIED="1576656462407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UiAuto$Da_AuctionPage.coverage" NAME="Da_AuctionPage Coverage Results" MODIFIED="1552977417634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$ReadImage.coverage" NAME="ReadImage Coverage Results" MODIFIED="1582611737007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Until" />
+    <SUITE FILE_PATH="coverage/UiAuto$adb.coverage" NAME="adb Coverage Results" MODIFIED="1552358061859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/adb_command" />
+    <SUITE FILE_PATH="coverage/UITEST$test.coverage" NAME="test Coverage Results" MODIFIED="1576657560637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UiAuto$MinePage.coverage" NAME="MinePage Coverage Results" MODIFIED="1553672153935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$driver.coverage" NAME="driver Coverage Results" MODIFIED="1582509274367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Driver" />
+    <SUITE FILE_PATH="coverage/UiAuto$MyProduct.coverage" NAME="MyProduct Coverage Results" MODIFIED="1553670854422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$Login.coverage" NAME="Login Coverage Results" MODIFIED="1576666213060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UiAuto$logcat.coverage" NAME="logcat Coverage Results" MODIFIED="1553050506490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/adblogcat" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1219302845">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="52" />
+          <entry key="txt" value="3" />
+          <entry key="ymal" value="1" />
+          <entry key="设置相关说明" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="51" />
+          <entry key="Scratch" value="1" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="3" />
+          <entry key="py" value="2814" />
+          <entry key="txt" value="371" />
+          <entry key="ymal" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="374" />
+          <entry key="Python" value="2814" />
+          <entry key="YAML" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+    <session id="347574875">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="43" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.199" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="11" />
+          <entry key="project.open.time.8" value="13" />
+          <entry key="project.open.time.9" value="7" />
+          <entry key="project.opened" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="41" />
+          <entry key="PLAIN_TEXT" value="93" />
+          <entry key="Python" value="391" />
+          <entry key="YAML" value="55" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="383" />
+          <entry key="Python" value="95401" />
+          <entry key="YAML" value="5101" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="42" />
+          <entry key="py" value="95401" />
+          <entry key="txt" value="288" />
+          <entry key="ymal" value="5154" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="png" value="41" />
+          <entry key="py" value="391" />
+          <entry key="sellcenter" value="2" />
+          <entry key="txt" value="87" />
+          <entry key="ymal" value="59" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="456035267">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="jpg" value="6" />
+          <entry key="md" value="1" />
+          <entry key="png" value="16" />
+          <entry key="py" value="53" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="8" />
+          <entry key="ymal" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="22" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="53" />
+          <entry key="Scratch" value="1" />
+          <entry key="YAML" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="65" />
+          <entry key="md" value="85" />
+          <entry key="py" value="11418" />
+          <entry key="txt" value="17" />
+          <entry key="ymal" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="85" />
+          <entry key="PLAIN_TEXT" value="82" />
+          <entry key="Python" value="11418" />
+          <entry key="YAML" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/test_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="22" />
+              <folding>
+                <element signature="e#4508#5569#0" />
+                <element signature="e#5823#7723#0" />
+                <element signature="e#7916#8629#0" />
+                <element signature="e#8830#11311#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/test_register.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-361">
+              <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+              <folding>
+                <marker date="1582620899651" expanded="true" signature="5426:7668" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="25">
+                <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Fuction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="e#107#116#0" expanded="true" />
+                <marker date="1582619584434" expanded="true" signature="566:906" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/command/driver_command.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1260">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Until/ReadImage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adb_command/adb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+              <folding>
+                <element signature="e#194#203#0" expanded="true" />
+                <marker date="1582511842736" expanded="true" signature="290:299" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adblogcat/logcat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1725">
+              <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+              <folding>
+                <element signature="e#106#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Config/config.ymal">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="9" column="4" selection-start-line="9" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Until/YamlRead.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>loc</find>
+      <find>historyAuctionList_270</find>
+      <find>tv_rate_1</find>
+      <find>知道了</find>
+      <find>Back_Button</find>
+      <find>delayed_head_txt_time</find>
+      <find>chian</find>
+      <find>get</find>
+      <find>find_element_by_android_uiautomator</find>
+      <find>driver.save_screenshot(IMG_PATH + r'\HomeCss_%s.png' % self.Day)</find>
+      <find>帖子</find>
+      <find>timeout=10</find>
+      <find>UiSelector</find>
+      <find>findFocusByFasId_204</find>
+      <find>findTopReplyByPostId_300</find>
+      <find>findAllPostType_320</find>
+      <find>ImageGridActivity</find>
+      <find>findHotForum_300</find>
+      <find>self.</find>
+      <find>desired_capabilities</find>
+      <find>Authorization</find>
+      <find>getMemberDetailInfo_112</find>
+      <find>http://train-h5.dcpai.cn/app/interface/mobile/getMemberDetailInfo_112  response is</find>
+      <find>login</find>
+      <find>loginByPhone_220</find>
+      <find>find_element_by_xpath</find>
+      <find>resourceId</find>
+      <find>assert PublicShell(self.driver).is_elementExits((By.NAME, &quot;我的订单&quot;)) == True, u&quot;我的订单元素存在&quot;</find>
+      <find>CCUtility</find>
+      <find>self.driver</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>desired_capabilities</replace>
+      <replace>duration=0.2</replace>
+      <replace>Login_Class</replace>
+      <replace>waitsendreq</replace>
+      <replace>wait_reciving</replace>
+      <replace>wait_comment</replace>
+      <replace>waitreq</replace>
+      <replace>self.headers.update(Authorization=self.Authorization)</replace>
+      <replace>AuctionReq</replace>
+      <replace>timeout=2</replace>
+      <replace>contains</replace>
+      <replace>dr</replace>
+      <replace>timeout=3</replace>
+      <replace>timeout=5</replace>
+      <replace>UiSelector()</replace>
+      <replace>self.desired_capabilities</replace>
+      <replace>driver</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Public/Fuction.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Until/GetFile.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/case/test_search.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Until/diffrentPng.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/command/driver_command.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/command/remind.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/API/LZshop.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/elements/sellcenter.ymal" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Until/YamlRead.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/adb_command/adb.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Driver/driver.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/case/test_register.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Until/DB.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/adblogcat/logcat.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/API/Order500.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/API/V5down.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/case/test_login.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/API/new_500.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Until/ReadImage.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/API/BBS500.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/API/Order500.py" />
+        <option value="$PROJECT_DIR$/adblogcat/0305.txt" />
+        <option value="$PROJECT_DIR$/adblogcat/0306.txt" />
+        <option value="$PROJECT_DIR$/Page/ImageView_Price.py" />
+        <option value="$PROJECT_DIR$/Until/diffrentPng.py" />
+        <option value="$PROJECT_DIR$/Page/ImageView_Living.py" />
+        <option value="$PROJECT_DIR$/Until/GetFile.py" />
+        <option value="$PROJECT_DIR$/Page/IM.py" />
+        <option value="$PROJECT_DIR$/Driver/Driver.py" />
+        <option value="$PROJECT_DIR$/Page/Da_AuctionPage.py" />
+        <option value="$PROJECT_DIR$/Page/SellerPage.py" />
+        <option value="$PROJECT_DIR$/Page/Auction_Page.py" />
+        <option value="$PROJECT_DIR$/Page/Auction_LotPage.py" />
+        <option value="$PROJECT_DIR$/Page/Delay-Auction.py" />
+        <option value="$PROJECT_DIR$/Page/Pay_Margin.py" />
+        <option value="$PROJECT_DIR$/Page/HomePage.py" />
+        <option value="$PROJECT_DIR$/Page/Delay_Auction.py" />
+        <option value="$PROJECT_DIR$/Page/MyProduct.py" />
+        <option value="$PROJECT_DIR$/Page/AddLot.py" />
+        <option value="$PROJECT_DIR$/Page/PulicClass.py" />
+        <option value="$PROJECT_DIR$/Page/BBS_Infromation_Page.py" />
+        <option value="$PROJECT_DIR$/Page/MinePage.py" />
+        <option value="$PROJECT_DIR$/andriodbutton.txt" />
+        <option value="$PROJECT_DIR$/API/new_500.py" />
+        <option value="$PROJECT_DIR$/Page/Da_JiangHu.py" />
+        <option value="$PROJECT_DIR$/Page/School_Page.py" />
+        <option value="$PROJECT_DIR$/API/BBS500.py" />
+        <option value="$PROJECT_DIR$/Page/AboutLogin.py" />
+        <option value="$PROJECT_DIR$/Config/Token.ymal" />
+        <option value="$PROJECT_DIR$/Config/logPid.ymal" />
+        <option value="$PROJECT_DIR$/Until/YamlRead.py" />
+        <option value="$PROJECT_DIR$/Page/test.py" />
+        <option value="$PROJECT_DIR$/Command/command.py" />
+        <option value="$PROJECT_DIR$/Page/Login.py" />
+        <option value="$PROJECT_DIR$/case/test.py" />
+        <option value="$PROJECT_DIR$/case/Login.py" />
+        <option value="$PROJECT_DIR$/Until/DB.py" />
+        <option value="$PROJECT_DIR$/Config/config.ymal" />
+        <option value="$PROJECT_DIR$/case/test_home.py" />
+        <option value="$PROJECT_DIR$/API/V5down.py" />
+        <option value="$PROJECT_DIR$/case/test_banner.py" />
+        <option value="$PROJECT_DIR$/case/test_search.py" />
+        <option value="$PROJECT_DIR$/adblogcat/logcat.py" />
+        <option value="$PROJECT_DIR$/adb_command/adb.py" />
+        <option value="$PROJECT_DIR$/Driver/driver.py" />
+        <option value="$PROJECT_DIR$/command/driver_command.py" />
+        <option value="$PROJECT_DIR$/Until/ReadImage.py" />
+        <option value="$PROJECT_DIR$/case/test_login.py" />
+        <option value="$PROJECT_DIR$/PublicCommand/public_command.py" />
+        <option value="$PROJECT_DIR$/case/test_register.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="690" />
+    <option name="y" value="60" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="adb_command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="adblogcat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="Apk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="Img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="Until" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/TestWork/UiAuto/Page/HomePage.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TKClient" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TestWork\UITEST\Img" />
+      <recent name="D:\TestWork\UITEST\Apk" />
+      <recent name="D:\TestWork\UiAuto\elements" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TestWork\UITEST\Img" />
+      <recent name="D:\TestWork\UiAuto\Img" />
+      <recent name="D:\TestWork\UiAuto\Until" />
+      <recent name="D:\TestWork\UiAuto\API" />
+      <recent name="D:\TestWork\UIautoTest\Until" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.public_command">
+    <configuration name="ReadImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UIautoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Until" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Until/ReadImage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="driver_command" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UIautoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/command" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/command/driver_command.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="public_command" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UIautoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PublicCommand" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PublicCommand/public_command.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_login.Test_Login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="UIautoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.Test_Login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_login.Test_Login.test_001_click_mine" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="UIautoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.Test_Login.test_001_click_mine&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest for test_login.Test_Login" />
+      <item itemvalue="Python tests.pytest for test_login.Test_Login.test_001_click_mine" />
+      <item itemvalue="Python.driver_command" />
+      <item itemvalue="Python.ReadImage" />
+      <item itemvalue="Python.public_command" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.public_command" />
+        <item itemvalue="Python.ReadImage" />
+        <item itemvalue="Python.driver_command" />
+        <item itemvalue="Python tests.pytest for test_login.Test_Login.test_001_click_mine" />
+        <item itemvalue="Python tests.pytest for test_login.Test_Login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\DCang\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70cd2b6d-c8e3-460d-b871-b3e3e86f322a" name="Default Changelist" comment="" />
+      <created>1539571954207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539571954207</updated>
+    </task>
+    <task id="LOCAL-00001">
+      <created>1541475514630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541475514630</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1541486506502</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541486506502</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1541486884280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541486884280</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改class及数据逻辑">
+      <created>1548756071632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548756071632</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1548929055876</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548929055876</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1549015353909</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549015353909</updated>
+    </task>
+    <task id="LOCAL-00007" summary="完成进入付款页面信息验证">
+      <created>1549093294550</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549093294550</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改case">
+      <created>1549879477768</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1549879477768</updated>
+    </task>
+    <task id="LOCAL-00009" summary="增加case（进入账户管理-未完成）（钱包）及修改逻辑（主要针对订单存在合并现象做调节）">
+      <created>1549965780041</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549965780042</updated>
+    </task>
+    <task id="LOCAL-00010" summary="增加case(门派)">
+      <created>1550052170253</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550052170253</updated>
+    </task>
+    <task id="LOCAL-00011" summary="增加case(门派)">
+      <created>1550052214215</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550052214215</updated>
+    </task>
+    <task id="LOCAL-00012" summary="增加case(江湖)">
+      <created>1550139066621</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550139066621</updated>
+    </task>
+    <task id="LOCAL-00013" summary="增加case()">
+      <created>1550223387293</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1550223387293</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1550828125182</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1550828125182</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1551261601449</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1551261601449</updated>
+    </task>
+    <task id="LOCAL-00016" summary="新增多个页面case">
+      <created>1551433699075</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1551433699075</updated>
+    </task>
+    <task id="LOCAL-00017" summary="新增多个页面case">
+      <created>1551952611819</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1551952611819</updated>
+    </task>
+    <task id="LOCAL-00018" summary="磨合真机和模拟器">
+      <created>1552038871381</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1552038871381</updated>
+    </task>
+    <task id="LOCAL-00019" summary="完成龖*竞拍界面的验证">
+      <created>1552384926264</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1552384926264</updated>
+    </task>
+    <task id="LOCAL-00020" summary="完成龖*竞拍界面的验证">
+      <created>1552903303625</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1552903303625</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1553655631562</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1553655631562</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1553842673448</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1553842673448</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_search_py - 2020.01.06 at 14h 42m 41s.xml">
+      <configuration name="pytest in test_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2020.02.24 at 09h 48m 10s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2020.02.24 at 09h 52m 37s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_Test_Login - 2020.02.24 at 10h 33m 25s.xml">
+      <configuration name="pytest for test_login.Test_Login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_Test_Login - 2020.02.24 at 10h 34m 23s.xml">
+      <configuration name="pytest for test_login.Test_Login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_Test_Login - 2020.02.24 at 10h 35m 54s.xml">
+      <configuration name="pytest for test_login.Test_Login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_Test_Login_test_001_click_mine - 2020.02.24 at 10h 36m 54s.xml">
+      <configuration name="pytest for test_login.Test_Login.test_001_click_mine" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_Test_Login_test_001_click_mine - 2020.02.24 at 10h 37m 48s.xml">
+      <configuration name="pytest for test_login.Test_Login.test_001_click_mine" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_Test_Login_test_001_click_mine - 2020.02.24 at 10h 38m 37s.xml">
+      <configuration name="pytest for test_login.Test_Login.test_001_click_mine" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_login_Test_Login_test_001_click_mine - 2020.02.24 at 10h 39m 23s.xml">
+      <configuration name="pytest for test_login.Test_Login.test_001_click_mine" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.38503253" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.19509594" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32622603" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" side_tool="true" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改class及数据逻辑" />
+    <MESSAGE value="完成进入付款页面信息验证" />
+    <MESSAGE value="修改case" />
+    <MESSAGE value="增加case（进入账户管理-未完成）（钱包）及修改逻辑（主要针对订单存在合并现象做调节）" />
+    <MESSAGE value="增加case(门派)" />
+    <MESSAGE value="增加case(江湖)" />
+    <MESSAGE value="增加case()" />
+    <MESSAGE value="新增多个页面case" />
+    <MESSAGE value="磨合真机和模拟器" />
+    <MESSAGE value="完成龖*竞拍界面的验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/API/BBS500.py" />
+    <entry file="file://$PROJECT_DIR$/Page/School_Page.py" />
+    <entry file="file://$PROJECT_DIR$/elements/acitivity.ymal">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements/auction.ymal">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements/BuyerOrder.ymal">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements/home.ymal">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/AddLot.py" />
+    <entry file="file://$PROJECT_DIR$/Page/IM.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/appium/webdriver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Until/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements/mine.ymal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Until/log.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="451" column="8" selection-start-line="451" selection-start-column="8" selection-end-line="451" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/Token.ymal">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/511c875c-1186-45df-bd98-8315d0a69ac8/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adblogcat/1210.txt" />
+    <entry file="file://$PROJECT_DIR$/Img/Myschool20190401155448.png" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Until/diffrentPng.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adblogcat/1218.txt" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22000">
+          <caret line="896" column="8" selection-start-line="896" selection-start-column="8" selection-end-line="896" selection-end-column="8" />
+          <folding>
+            <element signature="e#825#838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements/login.ymal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Until/DB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/appium/webdriver/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="486" column="8" selection-start-line="486" selection-start-column="8" selection-end-line="486" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="528" column="8" selection-start-line="528" selection-start-column="8" selection-end-line="528" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/V5down.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2225">
+          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/详解.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/andriodbutton.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/Pid.ymal">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="56" />
+          <folding>
+            <marker date="1582619635386" expanded="true" signature="851:852" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_banner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/code1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Driver/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="e#165#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adb_command/adb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+          <folding>
+            <element signature="e#194#203#0" expanded="true" />
+            <marker date="1582511842736" expanded="true" signature="290:299" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adblogcat/logcat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+          <folding>
+            <element signature="e#106#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Until/YamlRead.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/code.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/DSC_4492.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/code1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/code.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Until/ReadImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/login_after.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/config.ymal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="4" selection-start-line="9" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/driver_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Fuction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#107#116#0" expanded="true" />
+            <marker date="1582619584434" expanded="true" signature="566:906" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="e#4508#5569#0" />
+            <element signature="e#5823#7723#0" />
+            <element signature="e#7916#8629#0" />
+            <element signature="e#8830#11311#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+          <folding>
+            <marker date="1582620899651" expanded="true" signature="5426:7668" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="25">
+            <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

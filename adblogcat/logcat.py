@@ -9,62 +9,36 @@ import os,re
 import time
 import json
 from Until.YamlRead import *
-from adb_command.adb import *
+from adb_command.adb import Adb_System
 
 global BTest
-BTest = ''
-
-def GET_LOG():
-    devicename = ADB().get_devicename()
-    tasklist = 'tasklist | findstr "adb"'
-    AdbList1 = os.popen(tasklist)
-    beforeText = (AdbList1.read().replace(' ', '').replace('\n', ''))
-    name = datetime.datetime.now().strftime('%m%d')
-    logpath = f'{Logcat}\%s.txt' % name
-    file = open(logpath, 'w', encoding='utf-8')
-    file.close()
-    order = f'adb -s {devicename} logcat find "cn.dcpai.auction" >{logpath}' #获取连接设备
-    pi = subprocess.Popen(order, shell=True, stdout=subprocess.PIPE)
-    time.sleep(6)
-    pi.terminate()
-    AdbList2 = os.popen(tasklist)
-    afterText = (AdbList2.read().replace(' ','').replace('\n', ''))
-    differentText = afterText[len(beforeText):]
-    R = re.compile('[0-9]+Console')
-    differentList = re.findall(R,differentText)
-    for Text in differentList:
-        Pid = Text[0:-7]
-        end = subprocess.Popen('taskkill /f /t /pid %s' % Pid, shell=True)
+BTest = None
 
 def get_log():
-    devicename = ADB().get_devicename()
-    global BTest
+    devicename = Adb_System().devicename
     tasklist = 'tasklist | findstr "adb"'
     AdbList1 = os.popen(tasklist)
     beforeText = (AdbList1.read().replace(' ', '').replace('\n', ''))
     beforPid = re.findall('exe(.*?)Console', beforeText)
-    BTest = beforPid
     name = datetime.datetime.now().strftime('%m%d')
     logpath = f'{Logcat}\%s.txt' % name
-    file = open(logpath, 'w', encoding='utf-8')
-    file.close()
-    order = f'adb -s {devicename} logcat find "cn.dcpai.auction" >{logpath}'  # 获取连接设备
-    pi = subprocess.Popen(order, shell=True, stdout=subprocess.PIPE)
-
-def end_log():
+    with open(logpath, 'w', encoding='utf-8') as f:
+        order = f'adb -s {devicename} logcat find "cn.dcpai.auction" >{logpath}'  # 获取连接设备
+        pi = subprocess.Popen(order, shell=True, stdout=subprocess.PIPE)
     tasklist = 'tasklist | findstr "adb"'
     AdbList2 = os.popen(tasklist)
-    afterText = (AdbList2.read().replace(' ','').replace('\n', ''))
+    afterText = (AdbList2.read().replace(' ', '').replace('\n', ''))
     afterPid = re.findall('exe(.*?)Console', afterText)
-    beforPid = BTest
-    differentList = []
-    for bid in afterPid:
-        if bid in beforPid:
-            pass
-        else:
-            differentList.append(bid)
-    for Pid in differentList:
-        end = subprocess.Popen('taskkill /f /t /pid %s' % Pid, shell=True)
+    LogPid = {}
+    pids = []
+    for pid in afterPid:
+        if pid not in beforPid:
+            pids.append(pid)
+    LogPid.update(Pid=pids)
+    yaml_write(Pid_PATH).write(LogPid)
+
+def end_log(pid):
+    end = subprocess.Popen('taskkill /f /t /pid %s' % pid, shell=True)
 
 
 # 获取调用登录接口后的token信息
@@ -95,8 +69,10 @@ def get_Token():
 
 # 获取当前设备信息显示界面的包名
 def current_package():
-    devicename = ADB().get_devicename()
+    devicename = Adb_System().devicename
     cmd = f'adb -s {devicename} shell dumpsys window w |findstr \/ |findstr name='
     pakgeList = os.popen(cmd).read()
     pakge = re.findall('name=(.*?)/', pakgeList)[0]
     return pakge
+
+

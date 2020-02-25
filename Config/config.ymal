@@ -6,7 +6,8 @@ Driver:
 
 
 # 接口响应
-host: 'http://testapp.dcpai.cn/app/'
+#host: 'http://testapp.dcpai.cn/app/'
+host: 'http://train-h5.dcpai.cn/app/'
 headers: {'User-Agent':'Auction/5.0.0 (iPhone; iOS 11.4.1; Scale/2.00)',
           'Accept-Language':'zh-Hans-CN;q=1',
           'Connection':'keep-alive',
@@ -17,4 +18,6 @@ headers: {'User-Agent':'Auction/5.0.0 (iPhone; iOS 11.4.1; Scale/2.00)',
 # 测试账号信息
 username: 13888880000
 password: 123456
+
+
 

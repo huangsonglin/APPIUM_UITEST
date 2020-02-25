@@ -3,7 +3,7 @@ import yaml
 Base_path = os.path.split(os.path.dirname(os.path.abspath(__file__)))[0]
 CONFIG_FILE = Base_path+r'\Config\config.ymal'
 App_LoginToken = Base_path+r'\Config\Token.ymal'
-APK_PATH = Base_path + r'\Apk\cn.dcpai.auction_4.5.0.apk'
+APK_PATH = Base_path + r'\Apk\cn.dcpai.auction.apk'
 ActivityPath = Base_path + r'\elements\acitivity.ymal'
 MinePage = Base_path + r'\elements\mine.ymal'
 HomePage = Base_path + r'\elements\home.ymal'
@@ -14,6 +14,7 @@ BuyOrderPage = Base_path + r'\elements\BuyerOrder.ymal'
 SellCenter = Base_path + r'\elements\sellcenter.ymal'
 Logcat = Base_path + r'\adblogcat'
 IMG_PATH = Base_path + r'\Img'
+Pid_PATH = Base_path + r'\Config\Pid.ymal'
 
 # 读取yaml文件
 class yaml_read:

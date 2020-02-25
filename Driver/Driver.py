@@ -7,20 +7,20 @@ __Description__:'主要构建AndroidDeiver'
 
 
 from appium import webdriver
-from Until.YamlRead import *
-from selenium.webdriver.common.by import By
+from Until.YamlRead import APK_PATH
 from adb_command.adb import *
 
-class Driver:
+class AndroidDriver:
+
     def __init__(self):
-        self.devicename = ADB().get_devicename()
+        self.devicename = Adb_System().devicename
         self.desired_capabilities = {}
         # 测试平台设置
         self.desired_capabilities['platformName'] = 'Android'
         # 测试包的绝对路径--如果设置包名称和activity后这个可以不要
         self.desired_capabilities['app'] = APK_PATH
         # 手机系统版本
-        self.desired_capabilities['platformVersion'] = ADB().get_system()
+        self.desired_capabilities['platformVersion'] = Adb_System().get_system()
         # 测试包的mainactivity--(启动app时的activity)
         self.desired_capabilities['appActivity'] = 'cn.dcpai.auction.SplashActivity'
         self.desired_capabilities['appWaitActivity'] = 'cn.dcpai.auction.MainActivity'
@@ -39,8 +39,8 @@ class Driver:
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", self.desired_capabilities)
         self.driver.implicitly_wait(10)
 
-    def get_driver(self):
-        return self.driver
 
 
 
+if __name__ == '__main__':
+    AndroidDriver()
