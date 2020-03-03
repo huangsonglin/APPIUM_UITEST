@@ -46,6 +46,7 @@ class Test_Login():
 
 	# 进入登录界面
 	def test_001_into_login(self):
+		"""进入登录界面"""
 		ele = self.driver.find_element(By.ID, 'cn.dcpai.auction:id/mine')	# 按钮--我的
 		ele.click()
 		time.sleep(0.5)
@@ -105,6 +106,7 @@ class Test_Login():
 
 	# 账户和密码为空登录
 	def test_002_Empty_login(self):
+		"""账户和密码为空登录"""
 		try:
 			user_login_button = self.driver.find_element_by_id('btn_mobile_login')  # 账号登录按钮
 			user_login_button.click()
@@ -127,6 +129,7 @@ class Test_Login():
 	@pytest.mark.parametrize('username_01, password_01, username_02, password_02',
 							 [("3999999000a", '123456', "3999999000", '1234567')])
 	def test_003_errorInfo_login(self, username_01, password_01, username_02, password_02):
+		"""异常账号登录"""
 		try:
 			phone = WebDriverWait(self.driver, 10, 0.5).until(
 				EC.visibility_of_element_located((By.ID, "et_mobile")), message="登录手机号码")
@@ -164,6 +167,7 @@ class Test_Login():
 	# 三次输错帐号信息或密码后验证码显示
 	@pytest.mark.parametrize("username, password", [('39999990000', "1234567")])
 	def test_004_threeError_securityCode_login(self, username, password):
+		"""三次输错帐号信息或密码后验证码显示"""
 		try:
 			phone = WebDriverWait(self.driver, timeout=1).until(
 				EC.visibility_of_element_located((By.ID, "et_mobile")), message="登录手机号码")
@@ -184,6 +188,7 @@ class Test_Login():
 
 	@pytest.mark.parametrize("username, password", [('39999990000', "123456")])
 	def test_005_right_login(self, username, password):
+		"""正常登录"""
 		try:
 			phone = WebDriverWait(self.driver, timeout=5).until(
 				EC.visibility_of_element_located((By.ID, "et_mobile")), message="登录手机号码")
@@ -201,7 +206,7 @@ class Test_Login():
 				cut_img(img_name, code.location['x'], code.location['y'],
 						code.location['x'] + code.size['width'], code.location['y'] + code.size['height'])
 				code_text = ReadImg(img_name, 175).get()
-				# 因为技术不成熟导致需要多长刷新验证码，直到能够识别出来方可
+				# 因为技术不成熟导致需要多次刷新验证码，直到能够识别出来方可
 				while True:
 					# 读取出来的code码长度为4且只能是数字和字母组成
 					if len(code_text) == 4 and code_text.isalnum():

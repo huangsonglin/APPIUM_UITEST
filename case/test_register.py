@@ -1,5 +1,5 @@
 #!user/bin/python
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 __author__: 'huangsonglin@dcpai.cn'
 __Time__: '2019/12/19 14:52'
 
@@ -45,6 +45,7 @@ class Test_Register():
 
 	# 注册页面UI验证
 	def test_001_into_register_page(self):
+		"""注册页面UI验证"""
 		try:
 			ele = self.driver.find_element(By.ID, 'cn.dcpai.auction:id/mine')  # 按钮--我的
 			ele.click()
@@ -71,9 +72,11 @@ class Test_Register():
 				assert PublicShell(self.driver).is_elementExits(By.ID, "et_password") == True, u"密码输入框可见"
 				assert PublicShell(self.driver).is_elementExits(By.ID, "tv_text") == True, u"同意协议"
 				assert self.driver.find_element(By.ID, "tv_text").get_attribute("text") == "我已阅读并同意"
-				assert PublicShell(self.driver).is_elementExits(By.XPATH, "//*[contains(@text,'龘藏用户协议')]") == True, u"同意协议"
+				assert PublicShell(self.driver).is_elementExits(By.XPATH,
+																"//*[contains(@text,'龘藏用户协议')]") == True, u"同意协议"
 				assert PublicShell(self.driver).is_elementExits(By.ID, "btn_register") == True, u"注册按钮"
 			else:
+
 				# 从主页退出登录
 				Public_Function().quit_login(self.driver)
 				self.driver.implicitly_wait(1)
@@ -81,21 +84,20 @@ class Test_Register():
 		except Exception as e:
 			raise e
 
-
-		except Exception as e:
-			raise e
-
 	# 空内容进行注册
 	def test_02_empty_content_register(self):
+		"""空内容进行注册"""
 		try:
 			ele_commit = self.driver.find_element_by_id('btn_register')
 			ele_commit.click()
-			self.assertEqual(self.driver.current_activity, '.activity.MobileRegActivity', msg="所有信息为空时注册功能正常")
+			assert self.driver.current_activity == '.activity.MobileRegActivity', u"所有信息为空时注册功能正常"
+
 		except Exception as e:
 			raise e
 
 	# 密码长度不满足要求
 	def test_03_except_password_register(self):
+		"""密码长度不满足要求"""
 		try:
 			# 已注册的号码
 			all_phone = Mysql().sql_result('select username from user')
@@ -120,24 +122,32 @@ class Test_Register():
 			ele_code.clear()
 			ele_code.send_keys(code)
 			ele_nikename.clear()
-			ele_nikename.send_keys(CCUtility().random_name(3))
+			ele_nikename.send_keys(Public_Function().random_name(3))
 			ele_commit.click()
-			self.assertEqual(self.driver.current_activity, '.activity.MobileRegActivity', msg="密码为空时注册功能正常")
+			assert self.driver.current_activity == '.activity.MobileRegActivity', u"密码为空时注册功能正常"
 			sort_pwd = '12345'
 			long_pwd = '12345123451234512'
 			ele_password.clear()
 			ele_password.send_keys(sort_pwd)
 			ele_commit.click()
-			self.assertEqual(self.driver.current_activity, '.activity.MobileRegActivity', msg="密码长度低于6位时注册功能正常")
+			long_name = Public_Function().random_name(16)
+			assert self.driver.current_activity == '.activity.MobileRegActivity', u"密码长度低于6位时注册功能正常"
 			ele_password.clear()
-			ele_password.send_keys(long_pwd)
-			ele_commit.click()
-			self.assertEqual(self.driver.current_activity, '.activity.MobileRegActivity', msg="密码长度高于16位时注册功能正常")
+			if not Public_Function().is_emulator():
+				ele_password.send_keys(long_pwd)
+				ele_commit.click()
+				assert self.driver.current_activity == '.activity.MobileRegActivity', u"密码长度高于16位时注册功能正常"
+				ele_nikename.clear()
+				ele_nikename.send_keys(long_name)
+				ele_password.send_keys("123456")
+				ele_commit.click()
+				assert self.driver.current_activity == '.activity.MobileRegActivity', u"昵称长度高于16位时注册功能正常"
 		except Exception as e:
 			raise e
 
 	# 已注册的号码重新注册
 	def test_04_hasregister_again(self):
+		"""已注册的号码重新注册"""
 		try:
 			# 已注册的号码
 			all_phone = Mysql().sql_result('select username from user')
@@ -159,17 +169,18 @@ class Test_Register():
 			ele_code.clear()
 			ele_code.send_keys(code)
 			ele_nikename.clear()
-			ele_nikename.send_keys(CCUtility().random_name(3))
+			ele_nikename.send_keys(Public_Function().random_name(3))
 			pwd = '123456'
 			ele_password.clear()
 			ele_password.send_keys(pwd)
 			ele_commit.click()
-			self.assertEqual(self.driver.current_activity, '.activity.MobileRegActivity', msg="已注册的号码再次注册功能正常")
+			assert self.driver.current_activity == '.activity.MobileRegActivity', u"已注册的号码再次注册功能正常"
 		except Exception as e:
 			raise e
 
 	# 验证码不正确进行注册
 	def test_05_errorcode_register(self):
+		"""验证码不正确进行注册"""
 		try:
 			all_phone = Mysql().sql_result('select username from user')
 			while True:
@@ -188,16 +199,18 @@ class Test_Register():
 			ele_code.clear()
 			ele_code.send_keys(code)
 			ele_nikename.clear()
-			ele_nikename.send_keys(CCUtility().random_name(3))
+			ele_nikename.send_keys(Public_Function().random_name(3))
 			pwd = '123456'
 			ele_password.clear()
 			ele_password.send_keys(pwd)
 			ele_commit.click()
-			self.assertEqual(self.driver.current_activity, '.activity.MobileRegActivity', msg="验证码正确时注册功能正常")
+			assert self.driver.current_activity == '.activity.MobileRegActivity', u"验证码正确时注册功能正常"
 		except Exception as e:
 			raise e
 
+	# 正常注册
 	def test_06_register(self):
+		"""正常注册"""
 		try:
 			all_phone = Mysql().sql_result('select username from user')
 			while True:
@@ -214,7 +227,8 @@ class Test_Register():
 			ele_mobile.send_keys(tel)
 			req = Four_Vesion_Api().sendAuthenticationCode_112(tel)
 			time.sleep(0.5)
-			db_code = Mysql().reslut_replace(f'SELECT message FROM sms_send_his WHERE phone={tel} ORDER BY id DESC LIMIT 1')
+			db_code = Mysql().reslut_replace(
+				f'SELECT message FROM sms_send_his WHERE phone={tel} ORDER BY id DESC LIMIT 1')
 			code = re.findall('验证码是(.*)，5分钟', db_code)
 			code = code[0]
 			ele_code.clear()
@@ -222,12 +236,15 @@ class Test_Register():
 			ele_password.clear()
 			ele_password.send_keys('123456')
 			ele_nikename.clear()
-			ele_nikename.send_keys(CCUtility().random_name(3))
+			nikename = Public_Function().random_name(3)
+			ele_nikename.send_keys(nikename)
 			ele_commit.click()
-			self.assertEqual(self.driver.current_activity, '.activity.LoginMainActivity', msg="注册成功后返回登录主界面")
+			assert self.driver.current_activity == '.MainActivity', u"注册成功后返回登主界面"
+			user_nickname = self.driver.find_element_by_id('tv_nickname')
+			assert user_nickname.text == nikename
 		except Exception as e:
 			raise e
 
 
 if __name__ == '__main__':
-    unittest.main()
+	unittest.main()
