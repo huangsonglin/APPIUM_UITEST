@@ -8,7 +8,7 @@ auction_RadioButton:  cn.dcpai.auction:id/special_auction   # 龖竞拍按钮
 shop_RadioButton:  cn.dcpai.auction:id/main_mall   # 龖商城按钮
 jiangfu_RadioButton:  cn.dcpai.auction:id/jianghu   # 龖江湖按钮
 mine_RadioButton:  cn.dcpai.auction:id/mine   # 我的按钮
-search_button:  cn.dcpai.auction:id/home_img_search_btn   # 搜索按钮
+search_button:  cn.dcpai.auction:id/home_layout_search_btn   # 搜索按钮
 home_rl_layout :  cn.dcpai.auction:id/home_rl_layout            # 下滑后首页导航title--龖藏
 home_pr_layout :  cn.dcpai.auction:id/home_pr_layout            # 下滑后首页导航条
 home_auction :  cn.dcpai.auction:id/home_lot_layout             # 下滑后首页导航--轰啪拍场

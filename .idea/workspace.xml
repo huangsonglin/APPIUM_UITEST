@@ -30,6 +30,7 @@
     <SUITE FILE_PATH="coverage/UiAuto$GetFile.coverage" NAME="GetFile Coverage Results" MODIFIED="1552030119886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Until" />
     <SUITE FILE_PATH="coverage/UiAuto$PulicClass.coverage" NAME="PulicClass Coverage Results" MODIFIED="1552371752457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UiAuto$Set_driver.coverage" NAME="Set_driver Coverage Results" MODIFIED="1541484384462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Driver" />
+    <SUITE FILE_PATH="coverage/UITEST$Home.coverage" NAME="Home Coverage Results" MODIFIED="1583734333737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
     <SUITE FILE_PATH="coverage/UiAuto$webdriver.coverage" NAME="webdriver Coverage Results" MODIFIED="1551164427000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote" />
     <SUITE FILE_PATH="coverage/UiAuto$Da_JiangHu.coverage" NAME="Da_JiangHu Coverage Results" MODIFIED="1554107835131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_register_Test_Register_test_01_right_register.coverage" NAME="pytest for test_register.Test_Register.test_01_right_register Coverage Results" MODIFIED="1576744708766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -37,26 +38,33 @@
     <SUITE FILE_PATH="coverage/UITEST$pytest_in_test_register_py.coverage" NAME="pytest in test_register.py Coverage Results" MODIFIED="1576812707979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/UITEST$adb.coverage" NAME="adb Coverage Results" MODIFIED="1582511246443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/adb_command" />
     <SUITE FILE_PATH="coverage/UiAuto$ImageView_Price.coverage" NAME="ImageView_Price Coverage Results" MODIFIED="1551687232044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_in_test_home_bidauction_py.coverage" NAME="pytest in test_home_bidauction.py Coverage Results" MODIFIED="1583747144209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/UiAuto$HomePage.coverage" NAME="HomePage Coverage Results" MODIFIED="1553509223808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UiAuto$test.coverage" NAME="test Coverage Results" MODIFIED="1554102189527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_login_Test_Login_test_001_click_mine.coverage" NAME="pytest for test_login.Test_Login.test_001_click_mine Coverage Results" MODIFIED="1582511946545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/UiAuto$Delay_Auction.coverage" NAME="Delay_Auction Coverage Results" MODIFIED="1553508799728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_in_test_banner_py.coverage" NAME="pytest in test_banner.py Coverage Results" MODIFIED="1583389109918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/UiAuto$Mine.coverage" NAME="Mine Coverage Results" MODIFIED="1548837029542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$YamlRead.coverage" NAME="YamlRead Coverage Results" MODIFIED="1583138599003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Until" />
     <SUITE FILE_PATH="coverage/UIautoTest$Mine.coverage" NAME="Mine Coverage Results" MODIFIED="1541475033075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UiAuto$BBS_Infromation_Page.coverage" NAME="BBS_Infromation_Page Coverage Results" MODIFIED="1553764351548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
-    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_search_Test_Search_test_002_search_topic.coverage" NAME="pytest for test_search.Test_Search.test_002_search_topic Coverage Results" MODIFIED="1576827671456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_search_Test_Search_test_002_search_topic.coverage" NAME="pytest for test_search.Test_Search.test_002_search_topic Coverage Results" MODIFIED="1583140241840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_banner_Test_Bannner_test_001_banner_num.coverage" NAME="pytest for test_banner.Test_Bannner.test_001_banner_num Coverage Results" MODIFIED="1583378955123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/UITEST$public_command.coverage" NAME="public_command Coverage Results" MODIFIED="1582619584519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PublicCommand" />
     <SUITE FILE_PATH="coverage/UiAuto$Auction_Page.coverage" NAME="Auction_Page Coverage Results" MODIFIED="1552979057615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UiAuto$V5down.coverage" NAME="V5down Coverage Results" MODIFIED="1553845577851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
     <SUITE FILE_PATH="coverage/UiAuto$AboutLogin.coverage" NAME="AboutLogin Coverage Results" MODIFIED="1553845541670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UiAuto$tet.coverage" NAME="tet Coverage Results" MODIFIED="1541486094307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Command" />
-    <SUITE FILE_PATH="coverage/UITEST$pytest_in_test_search_py.coverage" NAME="pytest in test_search.py Coverage Results" MODIFIED="1578292915606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_in_test_search_py.coverage" NAME="pytest in test_search.py Coverage Results" MODIFIED="1583300489812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/UiAuto$diffrentPng.coverage" NAME="diffrentPng Coverage Results" MODIFIED="1552028850074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Until" />
     <SUITE FILE_PATH="coverage/UiAuto$YamlRead.coverage" NAME="YamlRead Coverage Results" MODIFIED="1548919596822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Until" />
     <SUITE FILE_PATH="coverage/UiAuto$command.coverage" NAME="command Coverage Results" MODIFIED="1548916305315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Command" />
+    <SUITE FILE_PATH="coverage/UITEST$V5down.coverage" NAME="V5down Coverage Results" MODIFIED="1583377109202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_home_bidauction_Test_Home_BidAuction_test_002_result_list.coverage" NAME="pytest for test_home_bidauction.Test_Home_BidAuction.test_002_result_list Coverage Results" MODIFIED="1583738308088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/UiAuto$BBS500.coverage" NAME="BBS500 Coverage Results" MODIFIED="1554110380502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
     <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_login_Test_Login.coverage" NAME="pytest for test_login.Test_Login Coverage Results" MODIFIED="1582511722134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/UiAuto$Auction_LotPage.coverage" NAME="Auction_LotPage Coverage Results" MODIFIED="1552037745792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_search_Test_Search_test_003_search_hot_topic.coverage" NAME="pytest for test_search.Test_Search.test_003_search_hot_topic Coverage Results" MODIFIED="1583223534625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/UITEST$pytest_for_Login_Test_Login_test_003_except_login.coverage" NAME="pytest for case.test_login.Test_Login.test_003_except_login Coverage Results" MODIFIED="1576673723682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/UiAuto$LZshop.coverage" NAME="LZshop Coverage Results" MODIFIED="1550644394225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
     <SUITE FILE_PATH="coverage/UITEST$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1582508920082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -72,8 +80,11 @@
     <SUITE FILE_PATH="coverage/UiAuto$Da_AuctionPage.coverage" NAME="Da_AuctionPage Coverage Results" MODIFIED="1552977417634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UITEST$ReadImage.coverage" NAME="ReadImage Coverage Results" MODIFIED="1582611737007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Until" />
     <SUITE FILE_PATH="coverage/UiAuto$adb.coverage" NAME="adb Coverage Results" MODIFIED="1552358061859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/adb_command" />
-    <SUITE FILE_PATH="coverage/UITEST$test.coverage" NAME="test Coverage Results" MODIFIED="1576657560637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_search_Test_Search_test_004_search_collection.coverage" NAME="pytest for test_search.Test_Search.test_004_search_collection Coverage Results" MODIFIED="1583289474738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UITEST$pytest_for_test_home_bidauction_Test_Home_BidAuction_test_001_init.coverage" NAME="pytest for test_home_bidauction.Test_Home_BidAuction.test_001_init Coverage Results" MODIFIED="1583390188222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/UITEST$test.coverage" NAME="test Coverage Results" MODIFIED="1583745956705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UiAuto$MinePage.coverage" NAME="MinePage Coverage Results" MODIFIED="1553672153935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
+    <SUITE FILE_PATH="coverage/UITEST$Pfuction.coverage" NAME="Pfuction Coverage Results" MODIFIED="1583399530212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Public" />
     <SUITE FILE_PATH="coverage/UITEST$driver.coverage" NAME="driver Coverage Results" MODIFIED="1582509274367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Driver" />
     <SUITE FILE_PATH="coverage/UiAuto$MyProduct.coverage" NAME="MyProduct Coverage Results" MODIFIED="1553670854422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
     <SUITE FILE_PATH="coverage/UITEST$Login.coverage" NAME="Login Coverage Results" MODIFIED="1576666213060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
@@ -194,107 +205,66 @@
     <session id="456035267">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="6" />
           <entry key="md" value="1" />
-          <entry key="png" value="16" />
-          <entry key="py" value="53" />
+          <entry key="png" value="21" />
+          <entry key="py" value="90" />
           <entry key="sql" value="1" />
-          <entry key="txt" value="8" />
-          <entry key="ymal" value="14" />
+          <entry key="txt" value="9" />
+          <entry key="ymal" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="22" />
+          <entry key="Image" value="27" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="53" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="90" />
           <entry key="Scratch" value="1" />
-          <entry key="YAML" value="14" />
+          <entry key="YAML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="65" />
           <entry key="md" value="85" />
-          <entry key="py" value="11418" />
+          <entry key="py" value="20365" />
           <entry key="txt" value="17" />
-          <entry key="ymal" value="11" />
+          <entry key="ymal" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="85" />
           <entry key="PLAIN_TEXT" value="82" />
-          <entry key="Python" value="11418" />
-          <entry key="YAML" value="11" />
+          <entry key="Python" value="20365" />
+          <entry key="YAML" value="64" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/test_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="22" />
-              <folding>
-                <element signature="e#4508#5569#0" />
-                <element signature="e#5823#7723#0" />
-                <element signature="e#7916#8629#0" />
-                <element signature="e#8830#11311#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/test_register.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-361">
-              <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-              <folding>
-                <marker date="1582620899651" expanded="true" signature="5426:7668" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="25">
-                <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/Fuction.py">
+        <entry file="file://$PROJECT_DIR$/case/test_home_bidauction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="e#107#116#0" expanded="true" />
-                <marker date="1582619584434" expanded="true" signature="566:906" ph="..." />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
             </state>
           </provider>
         </entry>
@@ -302,63 +272,82 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/command/driver_command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1260">
+            <state relative-caret-position="-16">
               <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Until/ReadImage.py">
+        <entry file="file://$PROJECT_DIR$/Public/Fuction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adb_command/adb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+            <state relative-caret-position="-350">
+              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
               <folding>
-                <element signature="e#194#203#0" expanded="true" />
-                <marker date="1582511842736" expanded="true" signature="290:299" ph="..." />
+                <element signature="e#108#117#0" expanded="true" />
+                <marker date="1582794802260" expanded="true" signature="605:945" ph="..." />
+                <marker date="1582794802260" expanded="true" signature="2490:2607" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adblogcat/logcat.py">
+        <entry file="file://$PROJECT_DIR$/Public/Pfuction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+            <state relative-caret-position="341">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding>
-                <element signature="e#106#123#0" expanded="true" />
+                <marker date="1583740966933" expanded="true" signature="261:262" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Config/config.ymal">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="4" selection-start-line="9" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="348">
+              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Until/YamlRead.py">
+        <entry file="file://$PROJECT_DIR$/API/Home.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="141">
+              <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/BBS500.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4225">
+              <caret line="175" column="48" selection-start-line="175" selection-start-column="48" selection-end-line="175" selection-end-column="48" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#107#116#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elements/home.ymal">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/V5down.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="15" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -374,22 +363,14 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>loc</find>
-      <find>historyAuctionList_270</find>
-      <find>tv_rate_1</find>
-      <find>知道了</find>
-      <find>Back_Button</find>
-      <find>delayed_head_txt_time</find>
       <find>chian</find>
       <find>get</find>
-      <find>find_element_by_android_uiautomator</find>
       <find>driver.save_screenshot(IMG_PATH + r'\HomeCss_%s.png' % self.Day)</find>
       <find>帖子</find>
       <find>timeout=10</find>
       <find>UiSelector</find>
       <find>findFocusByFasId_204</find>
       <find>findTopReplyByPostId_300</find>
-      <find>findAllPostType_320</find>
       <find>ImageGridActivity</find>
       <find>findHotForum_300</find>
       <find>self.</find>
@@ -404,6 +385,14 @@
       <find>assert PublicShell(self.driver).is_elementExits((By.NAME, &quot;我的订单&quot;)) == True, u&quot;我的订单元素存在&quot;</find>
       <find>CCUtility</find>
       <find>self.driver</find>
+      <find>CCUtilit</find>
+      <find>CCUtili</find>
+      <find>\d</find>
+      <find>findAllPostType_320</find>
+      <find>is_er</find>
+      <find>circleIndicator</find>
+      <find>find_element_by_android_uiautomator</find>
+      <find>findExistInLive</find>
     </findStrings>
     <replaceStrings>
       <replace>desired_capabilities</replace>
@@ -423,10 +412,15 @@
       <replace>UiSelector()</replace>
       <replace>self.desired_capabilities</replace>
       <replace>driver</replace>
+      <replace>[0-9]</replace>
     </replaceStrings>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/case/test_banner.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Public/Pfuction.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Public/Fuction.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/API/Home.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/case/test_home_bidauction.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Until/GetFile.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/case/test_search.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Until/diffrentPng.py" root0="SKIP_INSPECTION" />
@@ -450,13 +444,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/API/Order500.py" />
-        <option value="$PROJECT_DIR$/adblogcat/0305.txt" />
-        <option value="$PROJECT_DIR$/adblogcat/0306.txt" />
-        <option value="$PROJECT_DIR$/Page/ImageView_Price.py" />
-        <option value="$PROJECT_DIR$/Until/diffrentPng.py" />
-        <option value="$PROJECT_DIR$/Page/ImageView_Living.py" />
-        <option value="$PROJECT_DIR$/Until/GetFile.py" />
         <option value="$PROJECT_DIR$/Page/IM.py" />
         <option value="$PROJECT_DIR$/Driver/Driver.py" />
         <option value="$PROJECT_DIR$/Page/Da_AuctionPage.py" />
@@ -480,27 +467,34 @@
         <option value="$PROJECT_DIR$/Page/AboutLogin.py" />
         <option value="$PROJECT_DIR$/Config/Token.ymal" />
         <option value="$PROJECT_DIR$/Config/logPid.ymal" />
-        <option value="$PROJECT_DIR$/Until/YamlRead.py" />
         <option value="$PROJECT_DIR$/Page/test.py" />
         <option value="$PROJECT_DIR$/Command/command.py" />
         <option value="$PROJECT_DIR$/Page/Login.py" />
         <option value="$PROJECT_DIR$/case/test.py" />
         <option value="$PROJECT_DIR$/case/Login.py" />
         <option value="$PROJECT_DIR$/Until/DB.py" />
-        <option value="$PROJECT_DIR$/Config/config.ymal" />
         <option value="$PROJECT_DIR$/case/test_home.py" />
-        <option value="$PROJECT_DIR$/API/V5down.py" />
-        <option value="$PROJECT_DIR$/case/test_banner.py" />
-        <option value="$PROJECT_DIR$/case/test_search.py" />
         <option value="$PROJECT_DIR$/adblogcat/logcat.py" />
         <option value="$PROJECT_DIR$/adb_command/adb.py" />
-        <option value="$PROJECT_DIR$/Driver/driver.py" />
         <option value="$PROJECT_DIR$/command/driver_command.py" />
         <option value="$PROJECT_DIR$/Until/ReadImage.py" />
-        <option value="$PROJECT_DIR$/case/test_login.py" />
         <option value="$PROJECT_DIR$/PublicCommand/public_command.py" />
-        <option value="$PROJECT_DIR$/case/test_register.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Public/Fuction.py" />
+        <option value="$PROJECT_DIR$/Driver/driver.py" />
+        <option value="$PROJECT_DIR$/Until/YamlRead.py" />
+        <option value="$PROJECT_DIR$/elements/home.ymal" />
+        <option value="$PROJECT_DIR$/case/test_register.py" />
+        <option value="$PROJECT_DIR$/case/test_search.py" />
+        <option value="$PROJECT_DIR$/case/test_login.py" />
+        <option value="$PROJECT_DIR$/API/V5down.py" />
+        <option value="$PROJECT_DIR$/Config/config.ymal" />
+        <option value="$PROJECT_DIR$/case/test_banner.py" />
+        <option value="$PROJECT_DIR$/API/home_api.py" />
+        <option value="$PROJECT_DIR$/API/Home.py" />
+        <option value="$PROJECT_DIR$/Public/Pfuction.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/case/test_home_bidauction.py" />
       </list>
     </option>
   </component>
@@ -540,16 +534,6 @@
             <path>
               <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
               <item name="UITEST" type="462c0819:PsiDirectoryNode" />
-              <item name="adb_command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
-              <item name="adblogcat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
               <item name="API" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -571,6 +555,16 @@
               <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
               <item name="UITEST" type="462c0819:PsiDirectoryNode" />
               <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="Driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UITEST" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UITEST" type="b2602c69:ProjectViewProjectNode" />
@@ -599,24 +593,24 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/TestWork/UiAuto/Page/HomePage.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TKClient" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\TestWork\UITEST\Img" />
-      <recent name="D:\TestWork\UITEST\Apk" />
-      <recent name="D:\TestWork\UiAuto\elements" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TestWork\UITEST\API" />
       <recent name="D:\TestWork\UITEST\Img" />
       <recent name="D:\TestWork\UiAuto\Img" />
       <recent name="D:\TestWork\UiAuto\Until" />
       <recent name="D:\TestWork\UiAuto\API" />
-      <recent name="D:\TestWork\UIautoTest\Until" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TestWork\UITEST\Apk" />
+      <recent name="D:\TestWork\UITEST\Img" />
+      <recent name="D:\TestWork\UiAuto\elements" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -631,8 +625,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.public_command">
-    <configuration name="ReadImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest in test_home_bidauction.py">
+    <configuration name="Home" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UIautoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -640,12 +634,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Until" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Until/ReadImage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API/Home.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -654,7 +648,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="driver_command" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Pfuction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UIautoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -662,12 +656,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/command" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Public" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/command/driver_command.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Public/Pfuction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -676,7 +670,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="public_command" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UIautoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -684,12 +678,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PublicCommand" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PublicCommand/public_command.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -698,7 +692,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_login.Test_Login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_home_bidauction.Test_Home_BidAuction.test_002_result_list" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="UIautoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -710,11 +704,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.Test_Login&quot;" />
+      <option name="_new_target" value="&quot;test_home_bidauction.Test_Home_BidAuction.test_002_result_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_login.Test_Login.test_001_click_mine" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_home_bidauction.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="UIautoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -726,24 +720,24 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.Test_Login.test_001_click_mine&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_home_bidauction.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_login.Test_Login" />
-      <item itemvalue="Python tests.pytest for test_login.Test_Login.test_001_click_mine" />
-      <item itemvalue="Python.driver_command" />
-      <item itemvalue="Python.ReadImage" />
-      <item itemvalue="Python.public_command" />
+      <item itemvalue="Python.Home" />
+      <item itemvalue="Python tests.pytest in test_home_bidauction.py" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.Pfuction" />
+      <item itemvalue="Python tests.pytest for test_home_bidauction.Test_Home_BidAuction.test_002_result_list" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.public_command" />
-        <item itemvalue="Python.ReadImage" />
-        <item itemvalue="Python.driver_command" />
-        <item itemvalue="Python tests.pytest for test_login.Test_Login.test_001_click_mine" />
-        <item itemvalue="Python tests.pytest for test_login.Test_Login" />
+        <item itemvalue="Python tests.pytest in test_home_bidauction.py" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.pytest for test_home_bidauction.Test_Home_BidAuction.test_002_result_list" />
+        <item itemvalue="Python.Home" />
+        <item itemvalue="Python.Pfuction" />
       </list>
     </recent_temporary>
   </component>
@@ -917,35 +911,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_search_py - 2020.01.06 at 14h 42m 41s.xml">
-      <configuration name="pytest in test_search.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_home_bidauction_py - 2020.03.09 at 17h 17m 30s.xml">
+      <configuration name="pytest in test_home_bidauction.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2020.02.24 at 09h 48m 10s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_home_bidauction_py - 2020.03.09 at 17h 27m 22s.xml">
+      <configuration name="pytest in test_home_bidauction.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2020.02.24 at 09h 52m 37s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_home_bidauction_py - 2020.03.09 at 17h 29m 44s.xml">
+      <configuration name="pytest in test_home_bidauction.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_login_Test_Login - 2020.02.24 at 10h 33m 25s.xml">
-      <configuration name="pytest for test_login.Test_Login" configurationId="tests" />
+    <history-entry file="pytest_in_test_home_bidauction_py - 2020.03.09 at 17h 30m 45s.xml">
+      <configuration name="pytest in test_home_bidauction.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_login_Test_Login - 2020.02.24 at 10h 34m 23s.xml">
-      <configuration name="pytest for test_login.Test_Login" configurationId="tests" />
+    <history-entry file="pytest_in_test_home_bidauction_py - 2020.03.09 at 17h 33m 36s.xml">
+      <configuration name="pytest in test_home_bidauction.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_login_Test_Login - 2020.02.24 at 10h 35m 54s.xml">
-      <configuration name="pytest for test_login.Test_Login" configurationId="tests" />
+    <history-entry file="pytest_in_test_home_bidauction_py - 2020.03.09 at 17h 35m 04s.xml">
+      <configuration name="pytest in test_home_bidauction.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_login_Test_Login_test_001_click_mine - 2020.02.24 at 10h 36m 54s.xml">
-      <configuration name="pytest for test_login.Test_Login.test_001_click_mine" configurationId="tests" />
+    <history-entry file="pytest_in_test_home_bidauction_py - 2020.03.09 at 17h 38m 02s.xml">
+      <configuration name="pytest in test_home_bidauction.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_login_Test_Login_test_001_click_mine - 2020.02.24 at 10h 37m 48s.xml">
-      <configuration name="pytest for test_login.Test_Login.test_001_click_mine" configurationId="tests" />
+    <history-entry file="pytest_in_test_home_bidauction_py - 2020.03.09 at 17h 39m 58s.xml">
+      <configuration name="pytest in test_home_bidauction.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_login_Test_Login_test_001_click_mine - 2020.02.24 at 10h 38m 37s.xml">
-      <configuration name="pytest for test_login.Test_Login.test_001_click_mine" configurationId="tests" />
+    <history-entry file="pytest_in_test_home_bidauction_py - 2020.03.09 at 17h 44m 40s.xml">
+      <configuration name="pytest in test_home_bidauction.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_login_Test_Login_test_001_click_mine - 2020.02.24 at 10h 39m 23s.xml">
-      <configuration name="pytest for test_login.Test_Login.test_001_click_mine" configurationId="tests" />
+    <history-entry file="pytest_in_test_home_bidauction_py - 2020.03.09 at 17h 47m 35s.xml">
+      <configuration name="pytest in test_home_bidauction.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="4">
@@ -961,12 +955,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.38503253" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.48698482" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -974,8 +968,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4978678" weight="0.329718" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -984,27 +978,27 @@
       <window_info anchor="right" id="Database" order="4" weight="0.19509594" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32622603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.5835141" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4978678" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.19509594" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1041,48 +1035,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/API/BBS500.py" />
-    <entry file="file://$PROJECT_DIR$/Page/School_Page.py" />
-    <entry file="file://$PROJECT_DIR$/elements/acitivity.ymal">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elements/auction.ymal">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elements/BuyerOrder.ymal">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elements/home.ymal">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/AddLot.py" />
-    <entry file="file://$PROJECT_DIR$/Page/IM.py" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/appium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Until/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elements/mine.ymal">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Until/log.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="451" column="8" selection-start-line="451" selection-start-column="8" selection-end-line="451" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config/Token.ymal">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/511c875c-1186-45df-bd98-8315d0a69ac8/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1095,16 +1047,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Until/diffrentPng.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test.py" />
     <entry file="file://$PROJECT_DIR$/adblogcat/1218.txt" />
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1123,74 +1066,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Until/DB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/appium/webdriver/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="486" column="8" selection-start-line="486" selection-start-column="8" selection-end-line="486" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/webelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="528" column="8" selection-start-line="528" selection-start-column="8" selection-end-line="528" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API/V5down.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2225">
-          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/详解.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/andriodbutton.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Config/Pid.ymal">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="56" />
-          <folding>
-            <marker date="1582619635386" expanded="true" signature="851:852" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_banner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Img/code1.jpg" />
-    <entry file="file://$PROJECT_DIR$/Driver/driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="e#165#193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adb_command/adb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -1202,98 +1087,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adblogcat/logcat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-          <folding>
-            <element signature="e#106#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Until/YamlRead.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Img/code.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Img/DSC_4492.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Img/code1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Img/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Img/code.jpg" />
+    <entry file="file://$PROJECT_DIR$/Img/DSC_4492.jpg" />
+    <entry file="file://$PROJECT_DIR$/Img/code1.png" />
+    <entry file="file://$PROJECT_DIR$/Img/1.png" />
     <entry file="file://$PROJECT_DIR$/Img/code.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Until/ReadImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Img/login_after.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config/config.ymal">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="4" selection-start-line="9" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/driver_command.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1260">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Fuction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#107#116#0" expanded="true" />
-            <marker date="1582619584434" expanded="true" signature="566:906" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="22" />
-          <folding>
-            <element signature="e#4508#5569#0" />
-            <element signature="e#5823#7723#0" />
-            <element signature="e#7916#8629#0" />
-            <element signature="e#8830#11311#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-          <folding>
-            <marker date="1582620899651" expanded="true" signature="5426:7668" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1302,6 +1104,231 @@
             <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adblogcat/logcat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements/mine.ymal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/andriodbutton.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/common/action_chains.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="180" column="31" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pywinauto/controls/menuwrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="255" column="38" selection-start-line="255" selection-start-column="38" selection-end-line="255" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/appium/webdriver/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7500">
+          <caret line="321" column="43" selection-start-line="321" selection-start-column="8" selection-end-line="321" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/common/touch_actions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/Order500.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Until/ReadImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Until/GetFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Until/diffrentPng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Until/DB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="534" column="37" selection-start-line="534" selection-start-column="30" selection-end-line="534" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Driver/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="e#165#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/config.ymal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="53" column="82" lean-forward="true" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/home.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Until/YamlRead.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="15" column="8" selection-start-line="15" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/home_api.py" />
+    <entry file="file://$PROJECT_DIR$/case/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4325">
+          <caret line="174" column="32" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="32" />
+          <folding>
+            <marker date="1583375942587" expanded="true" signature="933:934" ph="..." />
+            <marker date="1583375942587" expanded="true" signature="1082:1105" ph="..." />
+            <marker date="1583375942587" expanded="true" signature="1131:1141" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_banner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7550">
+          <caret line="304" selection-start-line="304" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/BBS500.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4225">
+          <caret line="175" column="48" selection-start-line="175" selection-start-column="48" selection-end-line="175" selection-end-column="48" />
+          <folding>
+            <element signature="e#107#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements/home.ymal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/V5down.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="15" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Fuction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding>
+            <element signature="e#108#117#0" expanded="true" />
+            <marker date="1582794802260" expanded="true" signature="605:945" ph="..." />
+            <marker date="1582794802260" expanded="true" signature="2490:2607" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/driver_command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/Home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Pfuction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <marker date="1583740966933" expanded="true" signature="261:262" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_home_bidauction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
         </state>
       </provider>
     </entry>

@@ -11,6 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from command.driver_command import PublicShell
+from adb_command.adb import Adb_System
 
 """
 常用操作
@@ -78,6 +79,14 @@ class Public_Function:
 			ele.click()
 		except Exception as e:
 			raise e
+
+	def is_emulator(self):
+		"""判断是否是模拟器"""
+		name = Adb_System().devicename
+		if "emulator" in name:
+			return True
+		else:
+			return False
 
 	# 随机名字
 	def random_name(self, num):

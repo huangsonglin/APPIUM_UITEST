@@ -41,7 +41,7 @@ class Test_Search:
 
 	@classmethod
 	def teardown_class(cls):
-		pass
+		cls.driver.quit()
 
 	def teardown_module(self):
 		pass
@@ -163,7 +163,6 @@ class Test_Search:
 		except Exception as e:
 			raise e
 
-	@pytest.mark.skip
 	@pytest.mark.parametrize('content', [(Config(CONFIG_FILE).get("search_content"))])
 	def test_003_search_filtrate_topic(self, content):
 		"""话题搜索--筛选"""
@@ -251,26 +250,33 @@ class Test_Search:
 				search_list_view = self.driver.find_element_by_id('cn.dcpai.auction:id/search_result_list_view')
 				search_list_view_size = search_list_view.size
 				init_hight = search_list_view.location['y']  # 结果列表页左上方高度
-				results_list_view = search_list_view.find_elements_by_class_name('android.widget.LinearLayout')
+				results_list_view = search_list_view.find_elements(By.ID, 'lot_item_layout')
 				one_view_size = results_list_view[0].size  # 每个结果的尺寸大小
-				show_num = search_list_view_size['height'] / one_view_size['height']  # 每页可见数量
+				show_num = search_list_view_size['height'] / (one_view_size['height']+10)  # 每页可见数量
 				show_num = round(show_num)  # 可见列数(采用四舍五入的方式。因为显示不全可能会导致无法读取数据)
 				cycle_index = int(len(resutlt) / show_num)
 				for i in range(cycle_index):
 					for j in range(show_num):
-						lot_name = results_list_view[j].find_element(By.XPATH,
-																	   "//*[contains(@resource-id,'search_result_lot_name')]").text
+						textviews = results_list_view[j].find_elements(By.CLASS_NAME, "android.widget.TextView")
+						lot_name = results_list_view[j].find_element(By.ID, "search_result_lot_name").text	# 藏品名称
+						lot_type = results_list_view[j].find_element(By.ID, "search_result_lot_status").text	# 藏品类型
+						lot_begin_price = results_list_view[j].find_element(By.ID, "search_result_lot_price").text	# 藏品起拍价
+						lot_marketPriceValue = results_list_view[j].find_element(By.ID, "search_evaluation_price").text	# 藏品市场估价
+						lot_endtime = textviews[-1].text
 						api_lot_name = resutlt[i * show_num + j]['name']
 						assert lot_name == api_lot_name, u"藏品名字展示和接口返回一致"
-						lot_begin_price = results_list_view[j].find_element(By.XPATH,
-																		"//*[contains(@resource-id,'search_result_lot_price')]").text
 						api_lot_begin_price = resutlt[i * show_num + j]['beginPrice']
-						assert float(api_lot_begin_price) ==  float(''.join(re.findall('[0-9]', lot_begin_price))), u"藏品起拍价展示和接口返回一致"
-						lot_marketPriceValue = results_list_view[j].find_element(By.XPATH,
-																			"//*[contains(@resource-id,'search_evaluation_price')]").text
+						assert float(api_lot_begin_price) == float(''.join(re.findall('[0-9]', lot_begin_price))), u"藏品起拍价展示和接口返回一致"
 						lot_marketPriceValue = lot_marketPriceValue[5:]			# 去掉市场估价:
 						api_lot_marketPriceValue = resutlt[i * show_num + j]['marketPriceValue']
 						assert lot_marketPriceValue == api_lot_marketPriceValue, u"市场估价一致"
+						if resutlt[i * show_num + j]['auctionState'] == "F":
+							api_endtime = resutlt[i * show_num + j]['endTime']
+							if resutlt[i * show_num + j]['leave']:
+								api_status = "已流拍"
+							else:
+								api_status = "已成交"
+							assert lot_endtime.replace(" ","") == api_endtime[:10]+api_status
 					self.driver.swipe \
 						(results_list_view[show_num - 1].location["x"],
 						 results_list_view[show_num - 1].location["y"] + one_view_size['height'],
@@ -280,5 +286,101 @@ class Test_Search:
 		except Exception as e:
 			raise e
 
+	@pytest.mark.parametrize('content', [(Config(CONFIG_FILE).get("search_content"))])
+	def test_005_search_user(self, content):
+		"""搜索--藏友"""
+		try:
+			user_button = self.driver.find_element(By.ID, "friden_radio_button")
+			user_button.click()
+			self.driver.implicitly_wait(10)
+			time.sleep(1)
+			req = Four_Vesion_Api().findESMemberPage_204(keyword=content)
+			if req.json()['total'] == '0':
+				is_error_toast = PublicShell(self.driver).is_elementExits(By.XPATH, "//*[contains(@text, '暂无相关藏友')]")
+				assert is_error_toast == True
+			else:
+				resutlt = req.json()['rows']
+				search_list_view = self.driver.find_element_by_id('cn.dcpai.auction:id/search_result_list_view')
+				search_list_view_size = search_list_view.size
+				init_hight = search_list_view.location['y']  # 结果列表页左上方高度
+				results_list_view = search_list_view.find_elements_by_class_name('android.widget.LinearLayout')
+				one_view_size = results_list_view[0].size  # 每个结果的尺寸大小
+				show_num = search_list_view_size['height'] / one_view_size['height']  # 每页可见数量
+				show_num = round(show_num)  # 可见列数(采用四舍五入的方式。因为显示不全可能会导致无法读取数据)
+				cycle_index = int(len(resutlt) / show_num)
+				for i in range(cycle_index):
+					for j in range(show_num):
+						textviews = results_list_view[j].find_elements(By.CLASS_NAME, "android.widget.TextView")
+						user_icon = results_list_view[j].find_element(By.ID, "search_member_icon")	# 用户头像
+						user_name = textviews[0].text  # 藏友名字
+						user_level = textviews[1].text  # 藏友等级
+						user_message = textviews[2].text  # 私信
+						user_focus = textviews[3].text  # 关注
+						api_user_name = resutlt[i * show_num + j]['nickname']
+						assert user_name == api_user_name, u"藏友名字展示和接口返回一致"
+						api_user_level = resutlt[i * show_num + j]['level']
+						assert api_user_level == ''.join(re.findall('[0-9]', user_level)), u"藏友等级展示和接口返回一致"
+						assert user_message == "私信"
+						if resutlt[i * show_num + j]['focus']:
+							api_user_focus = "已关注"
+						else:
+							api_user_focus = "加关注"
+						assert  api_user_focus == user_focus, u"关注信息一致"
+					self.driver.swipe \
+						(results_list_view[show_num - 1].location["x"],
+						 results_list_view[show_num - 1].location["y"] + one_view_size['height'],
+						 results_list_view[show_num - 1].location["x"], init_hight, duration=4000)
+					self.driver.implicitly_wait(10)
+					time.sleep(4)
+		except Exception as e:
+			raise e
+
+	@pytest.mark.parametrize('content', [(Config(CONFIG_FILE).get("search_content"))])
+	def test_006_search_user(self, content):
+		"""搜索--门派"""
+		try:
+			guild_button = self.driver.find_element(By.ID, "guild_radio_button")
+			guild_button.click()
+			self.driver.implicitly_wait(10)
+			time.sleep(1)
+			req = Four_Vesion_Api().searchForumPage_300(keyword=content)
+			if req.json()['total'] == '0':
+				is_error_toast = PublicShell(self.driver).is_elementExits(By.XPATH, "//*[contains(@text, '暂无相关门派')]")
+				assert is_error_toast == True
+			else:
+				resutlt = req.json()['rows']
+				search_list_view = self.driver.find_element_by_id('cn.dcpai.auction:id/search_result_list_view')
+				search_list_view_size = search_list_view.size
+				init_hight = search_list_view.location['y']  # 结果列表页左上方高度
+				results_list_view = search_list_view.find_elements(By.ID, "guild_item")
+				one_view_size = results_list_view[0].size  # 每个结果的尺寸大小
+				show_num = search_list_view_size['height'] / (one_view_size['height']+10)  # 每页可见数量
+				show_num = round(show_num)  # 可见列数(采用四舍五入的方式。因为显示不全可能会导致无法读取数据)
+				cycle_index = int(len(resutlt) / show_num)
+				for i in range(cycle_index):
+					for j in range(show_num):
+						textviews = results_list_view[j].find_elements(By.CLASS_NAME, "android.widget.TextView")
+						guild_icon = results_list_view[j].find_element(By.ID, "search_guild_tag_image")  # 门派头像
+						guild_member_icon = results_list_view[j].find_element(By.ID, "search_guild_master_icon")  # 门派掌门头像
+						guild_master_identity = results_list_view[j].find_element(By.ID, "search_guild_master_identity")  # 门派身份
+						guild_name = textviews[0].text  # 门派名字
+						guild_info = textviews[1].text  # 门派信息
+						guild_desc = textviews[2].text  # 说明
+						api_guild_name = resutlt[i * show_num + j]['name']
+						assert guild_name == api_guild_name, u"藏友名字展示和接口返回一致"
+						api_guild_info = f"声望 {resutlt[i * show_num + j]['reputation']} · " \
+										 f"话题{resutlt[i * show_num + j]['postCount']} · " \
+										 f"成员{resutlt[i * show_num + j]['memberCount']}"
+						assert api_guild_info == guild_info, u"门派信息和接口返回一致"
+						api_guild_desc = resutlt[i * show_num + j]['declaration']
+						assert api_guild_desc == guild_desc, u"信息一致"
+					self.driver.swipe \
+						(results_list_view[show_num - 1].location["x"],
+						 results_list_view[show_num - 1].location["y"] + one_view_size['height'],
+						 results_list_view[show_num - 1].location["x"], init_hight, duration=4000)
+					self.driver.implicitly_wait(10)
+					time.sleep(4)
+		except Exception as e:
+			raise e
 if __name__ == '__main__':
 	pytest.main("-m")

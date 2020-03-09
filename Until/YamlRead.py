@@ -57,3 +57,6 @@ class yaml_write:
         with open(self.yamlf,'w') as f:
             yaml.dump(aproject,f)
         f.close()
+
+
+print(Config(HomePage).get("search_button"))

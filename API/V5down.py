@@ -18,7 +18,7 @@ from Until.YamlRead import *
 class Four_Vesion_Api:
     host = Config(CONFIG_FILE).get("host")
     headers =  Config(CONFIG_FILE).get("headers")
-    timeout = 3
+    timeout = 1
     # Authorization = Config(App_LoginToken).get('Authorization')
 
     def findMyHoldProductPage_420(self, rows=20, page=1):
@@ -95,12 +95,60 @@ class Four_Vesion_Api:
         url = self.host + 'interface/mobile/pmall/sendAuthenticationCode_112'
         req = requests.post(url, data=data, headers=self.headers)
 
-    def searchPostPage_300(self, keyword, page=1, rows=10, sort='H'):
+    # 话题搜索
+    def searchPostPage_300(self, keyword, typeId="", page=1, rows=20, sort='H'):
         url = self.host + 'interface/mobile/pmall/searchPostPage_300'
-        data = {'keyword': keyword, 'page': page, 'rows': rows, 'sort': sort}
+        data = {'keyword': keyword, "typeId":typeId, 'page': page, 'rows': rows, 'sort': sort}
         req = requests.post(url, data=data, headers=self.headers, timeout=self.timeout)
         return req
 
+    # 藏品搜索
+    def searchLotPage_420(self, keyword, page=1, rows=20):
+        url = self.host + 'interface/mobile/pmall/searchLotPage_420'
+        data = {'keyword': keyword, 'page': page, 'rows': rows}
+        req = requests.post(url, data=data, headers=self.headers, timeout=self.timeout)
+        return req
+
+    # 搜索藏友
+    def findESMemberPage_204(self, keyword, page=1, rows=20):
+        url = self.host + 'interface/mobile/pmall/findESMemberPage_204'
+        data = {'keyword': keyword, 'page': page, 'rows': rows}
+        req = requests.post(url, data=data, headers=self.headers, timeout=self.timeout)
+        return req
+
+    # 搜索门派
+    def searchForumPage_300(self, keyword, page=1, rows=20):
+        url = self.host + 'interface/mobile/pmall/searchForumPage_300'
+        data = {'keyword': keyword, 'page': page, 'rows': rows}
+        req = requests.post(url, data=data, headers=self.headers, timeout=self.timeout)
+        return req
+
+    # 广告
+    def findAdvertiseContent_260(self, position, deviceType="ANY_TYPE"):
+        """
+        :param deviceType: ANY_TYPE（选填，设备纵横比）
+        :param position:    P1:拍场广告(已经无效)
+                            P2：精品广告（android暂时使用 P1代替）
+                            P3：开机广告
+                            P4：首页顶部广告
+                            P5：首页中下部运营广告
+                            P6：精选页广告
+                            P9：门派广告
+                            P10：积分商城首页广告图
+                            P11：龘商城商品页广告图
+                            P12：龘商城店家页广告图
+                            P13：龘江湖精选页广告图
+                            P14：龘江湖视频页广告图
+                            P15：龘藏直播页广告图
+        :return:
+        """
+        url = self.host + 'interface/mobile/pmall/findAdvertiseContent_260'
+        data = {"deviceType": deviceType, "position": position}
+        req = requests.post(url, headers=self.headers, data=data, timeout=self.timeout)
+        return req
+
+
+
 if __name__ == '__main__':
-    req = Down_V5Api().findFocusByFasId_204()
+    req = Four_Vesion_Api().findAdvertiseContent_260("P4")
     print(req.text)

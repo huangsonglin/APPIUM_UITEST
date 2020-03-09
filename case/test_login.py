@@ -39,7 +39,7 @@ class Test_Login():
 
 	@classmethod
 	def teardown_class(cls):
-		pass
+		cls.driver.quit()
 
 	def teardown_module(self):
 		pass
